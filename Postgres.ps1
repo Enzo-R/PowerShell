@@ -7,10 +7,10 @@ $INCLUDE = "C:\Program Files\PostgreSQL\10\bin\"
 #Put user enviroments values in the variable
 $OLDPATH = [System.Environment]::GetEnvironmentVariable('PATH','User')
 
-
+#bind the variables
 $NEWPATH = "$INCLUDE;$OLDPATH" 
 
-#
+#create Environment Variable on system permanently
 setx Path "$NEWPATH"
 
 
