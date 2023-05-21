@@ -4,7 +4,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 choco install --confirm anydesk
 choco install --confirm googlechrome
-choco install --confirm iisexpress
-choco install --confirm webdeploy
-choco install --confirm postman
-choco install --confirm postgresql10
+choco install --confirm adobereader
+choco install --confirm notepadplusplus.install
+choco install --confirm winrar
+choco install --confirm malwarebytes
+choco install --confirm greenshot
